@@ -11,6 +11,10 @@
 		666A8CFD28C1282000DECF88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666A8CFC28C1282000DECF88 /* ContentView.swift */; };
 		666A8CFF28C1282100DECF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666A8CFE28C1282100DECF88 /* Assets.xcassets */; };
 		666A8D0228C1282100DECF88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666A8D0128C1282100DECF88 /* Preview Assets.xcassets */; };
+		666A8D0A28C13AD800DECF88 /* TimerMarqueeTextScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666A8D0928C13AD800DECF88 /* TimerMarqueeTextScroll.swift */; };
+		666A8D0D28C13B2A00DECF88 /* OffsetMarqueeTextScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666A8D0C28C13B2A00DECF88 /* OffsetMarqueeTextScroll.swift */; };
+		666A8D0F28C13B8200DECF88 /* LoopingOffsetMarqueeTextScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666A8D0E28C13B8200DECF88 /* LoopingOffsetMarqueeTextScroll.swift */; };
+		666A8D1228C13BB200DECF88 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666A8D1128C13BB200DECF88 /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		666A8CFC28C1282000DECF88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		666A8CFE28C1282100DECF88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		666A8D0128C1282100DECF88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		666A8D0928C13AD800DECF88 /* TimerMarqueeTextScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerMarqueeTextScroll.swift; sourceTree = "<group>"; };
+		666A8D0C28C13B2A00DECF88 /* OffsetMarqueeTextScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetMarqueeTextScroll.swift; sourceTree = "<group>"; };
+		666A8D0E28C13B8200DECF88 /* LoopingOffsetMarqueeTextScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopingOffsetMarqueeTextScroll.swift; sourceTree = "<group>"; };
+		666A8D1128C13BB200DECF88 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,9 @@
 		666A8CF928C1282000DECF88 /* MarqueeTextScroll */ = {
 			isa = PBXGroup;
 			children = (
+				666A8D1028C13BA600DECF88 /* Extensions */,
+				666A8D0B28C13B1A00DECF88 /* OffsetMarquees */,
+				666A8D0828C13AC000DECF88 /* TimerMarquees */,
 				666A8CFA28C1282000DECF88 /* MarqueeTextScrollApp.swift */,
 				666A8CFC28C1282000DECF88 /* ContentView.swift */,
 				666A8CFE28C1282100DECF88 /* Assets.xcassets */,
@@ -65,6 +76,31 @@
 				666A8D0128C1282100DECF88 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		666A8D0828C13AC000DECF88 /* TimerMarquees */ = {
+			isa = PBXGroup;
+			children = (
+				666A8D0928C13AD800DECF88 /* TimerMarqueeTextScroll.swift */,
+			);
+			path = TimerMarquees;
+			sourceTree = "<group>";
+		};
+		666A8D0B28C13B1A00DECF88 /* OffsetMarquees */ = {
+			isa = PBXGroup;
+			children = (
+				666A8D0C28C13B2A00DECF88 /* OffsetMarqueeTextScroll.swift */,
+				666A8D0E28C13B8200DECF88 /* LoopingOffsetMarqueeTextScroll.swift */,
+			);
+			path = OffsetMarquees;
+			sourceTree = "<group>";
+		};
+		666A8D1028C13BA600DECF88 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				666A8D1128C13BB200DECF88 /* View.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				666A8CFD28C1282000DECF88 /* ContentView.swift in Sources */,
+				666A8D0A28C13AD800DECF88 /* TimerMarqueeTextScroll.swift in Sources */,
+				666A8D1228C13BB200DECF88 /* View.swift in Sources */,
+				666A8D0F28C13B8200DECF88 /* LoopingOffsetMarqueeTextScroll.swift in Sources */,
 				666A8CFB28C1282000DECF88 /* MarqueeTextScrollApp.swift in Sources */,
+				666A8D0D28C13B2A00DECF88 /* OffsetMarqueeTextScroll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
